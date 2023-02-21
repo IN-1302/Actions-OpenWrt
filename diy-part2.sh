@@ -13,5 +13,5 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-#sed -i 's/KERNEL_PATCHVER:=4.19/KERNEL_PATCHVER:=4.9/g' target/linux/x86/Makefile
-#sed -i 's/KERNEL_TESTING_PATCHVER:=4.19/KERNEL_TESTING_PATCHVER:=4.9/g' target/linux/x86/Makefile
+sed -i 's/KERNEL_PATCHVER:=4.19/KERNEL_PATCHVER:=4.9/g' target/linux/x86/Makefile
+sed -i 's/KERNEL_TESTING_PATCHVER:=4.19/KERNEL_TESTING_PATCHVER:=4.9/g' target/linux/x86/Makefile
